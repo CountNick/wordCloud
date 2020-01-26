@@ -1,0 +1,24 @@
+@font-face {
+    font-family: OldLondon;
+    src: url('../fonts/old_london/OldLondon.ttf');
+}
+
+body{
+    background-color: black;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 6px;
+    background: red;
+    color: #fff;
+    border-radius: 4px;
+    font-size: .8rem;
+    font-family: OldLondon;
+}
+
+.d3-tip.n:after {
+    margin: 100px 0 0 0;
+    top: 100%;
+    left: 0;
+}
